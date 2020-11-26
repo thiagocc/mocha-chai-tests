@@ -1,0 +1,33 @@
+# Mocha & Chai Tests
+
+Mocha & Chai Tests project was created for study purposes.
+
+## Installation
+
+Make sure you have Node.js/NPM installed on your latest LTS version. [Download Node.js](https://nodejs.org)
+
+```bash
+npm install
+```
+
+## Usage
+
+Start web server
+
+```bash
+npm run start
+```
+
+And then run the tests: 
+
+```bash
+npm run test
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://github.com/thiagocc/mocha-chai-tests/blob/master/LICENSE)
