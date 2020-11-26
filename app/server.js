@@ -9,7 +9,6 @@ app.get("/rgbToHex", (req, res) => {
     const blue = parseInt(req.query.blue, 10);
     const hex = converter.rgbToHex(red, green, blue);
     res.send(hex);
-
 });
 
 app.get("/hexToRgb", (req, res) => {
@@ -17,7 +16,6 @@ app.get("/hexToRgb", (req, res) => {
     const hex = req.query.hex;
     const rgb = converter.hexToRgb(hex);
     res.send(JSON.stringify(rgb));
-
 });
 
 app.listen(3000);
